@@ -1,1 +1,55 @@
+* {
+			box-sizing:border-box;
+		}
+
+	body {
+		font-family: Helvetica;
+	}	
+
+	h1 {
+		text-align: center;
+		color: black;
+	}
+
+	section {
+		border: 1px solid black;
+		background-color: gray;
+		margin: 10px;
+		height: 100px;
+	}
+
+	h2 {
+		float: right;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		margin: 0;
+		width: 150px;
+		text-align: center;
+		height: 35px;
+		padding-top: 5px;
+		background-color: red;
+	}
+
+	section>p {
+    padding: 30px 15px 15px 15px;
+	}
+
+	.row {
+		width: 100%;
+	}
+
+/***Desktop***/
+	@media (min-width: 992px) {
+		.col-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/***Tablet***/
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-6 {
+			float: left;
+			width: 50%;
+			}
+		}
 
